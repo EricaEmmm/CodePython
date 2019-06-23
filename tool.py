@@ -1,3 +1,98 @@
+# Definition for singly-linked list.
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+def createLinkList(List):
+    """
+    :type List: list/str
+    :rtype: ListNode
+    """
+    if len(List) <= 0:
+        return None
+    linkList = ListNode(None)
+    pNode = linkList
+
+    for i in List:
+        node = ListNode(i)
+        pNode.next = node
+        pNode = pNode.next
+
+    return linkList.next
+
+def printList(head):
+    """
+    :type head: ListNode
+    """
+    res = ""
+    while head:
+        res = res + str(head.val) + " -> "
+        head = head.next
+    res = res + "None"
+    print(res)
+
+
+# Definition for a Node.
+class Node(object):
+    def __init__(self, val, next, random):
+        self.val = val
+        self.next = next
+        self.random = random
+
+
+# 最小堆
+import heapq
+class SmallHeap(object):
+    def __init__(self):
+        self.arr = list()
+
+    def heap_push(self, val):   # 使用一个空列表，把值加入堆中
+        heapq.heappush(self.arr, val)
+
+    def heapify(self, list):    # 转换列表成为堆结构
+        heapq.heapify(list)
+
+    def heap_pop(self):
+        return heapq.heappop(self.arr)
+
+    def heap_pushpop(self, val):# 先执行了heappush,然后执行了heappop
+        return heapq.heappushpop(self.arr, val)
+
+    def heap_replace(self, val):# 先执行了heappop,然后执行了heappush
+        return heapq.heapreplace(self.arr, val)
+
+    def get_top(self):
+        if not self.arr:
+            return
+        return self.arr[0]
+
+# 最大堆
+class BigHeap:
+    def __init__(self, arr = []):
+        self.arr = [-i for i in arr]
+
+    def heap_push(self, val):
+        heapq.heappush(self.arr, -val)
+
+    def heapify(self):    # 转换列表成为堆结构
+        heapq.heapify(self.arr)
+
+    def heap_pop(self):
+        return -heapq.heappop(self.arr)
+
+    def heap_pushpop(self, val):
+        return heapq.heappushpop(self.arr, -val)
+
+    def heap_replace(self, val):
+        return heapq.heapreplace(self.arr, -val)
+
+    def get_top(self):
+        if not self.arr:
+            return
+        return -self.arr[0]
+
+
 # Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):
@@ -86,14 +181,6 @@ class TreeNode(object):
             serializedTreeNode = self.treeNodeToString(treeNode)
             serializedTreeNodes.append(serializedTreeNode)
         return "[{}]".format(', '.join(serializedTreeNodes))
-
-
-# Definition for a Node.
-class Node(object):
-    def __init__(self, val, next, random):
-        self.val = val
-        self.next = next
-        self.random = random
 
 
 # Definition for an interval.

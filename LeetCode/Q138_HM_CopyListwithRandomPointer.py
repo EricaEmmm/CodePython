@@ -47,7 +47,7 @@ class Solution(object):
                 copy.next = copy.next.next
             head = head.next
 
-        return tmp
+        return res
 
     def copyRandomList2(self, head):
         """

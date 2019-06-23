@@ -1,6 +1,32 @@
 
+from queue import Queue
+from tool import SmallHeap, BigHeap, heapq
 
 if __name__ == '__main__':
-    s = "asd"
-    for i in s:
-        print(i)
+    # s = "asd"
+    # for i in s:
+    #     print(i)
+
+    # s = Queue()
+    # s.put(1)
+    # print(s.get())
+
+    # s = [1,2,3,2,3]
+    # print(s.pop())
+
+    s = BigHeap([1,2,3,2,3])
+    # s.heap_push(1)
+    # s.heap_push(3)
+    # s.heap_push(2)
+    # while s:
+    # print(s.get_top())
+    # print(s.heap_pop())
+    # print(s.heap_pop())
+    # nums = [2, 3, 5, 1, 54, 23, 132]
+    # s.heapify()
+    # print(s.get_top())
+    print(s.heap_pop())
+    print(s.heap_pop())
+    print(s.heap_pop())
+    print(s.heap_pop())
+
