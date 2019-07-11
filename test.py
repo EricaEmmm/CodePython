@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # s = [1,2,3,2,3]
     # print(s.pop())
 
-    s = BigHeap([1,2,3,2,3])
+    # s = BigHeap([1,2,3,2,3])
     # s.heap_push(1)
     # s.heap_push(3)
     # s.heap_push(2)
@@ -25,8 +25,19 @@ if __name__ == '__main__':
     # nums = [2, 3, 5, 1, 54, 23, 132]
     # s.heapify()
     # print(s.get_top())
-    print(s.heap_pop())
-    print(s.heap_pop())
-    print(s.heap_pop())
-    print(s.heap_pop())
+    # print(s.heap_pop())
+    # print(s.heap_pop())
+    # print(s.heap_pop())
+    # print(s.heap_pop())
+
+    # a = [1,1,2,2,3]
+    # s = 0
+    # for i in a:
+    #     s ^= i
+    # s = s >> 1
+    # print(s)
+    # print(s)
+
+    bucket = [[] for i in range(10)]
+    print(bucket)
 
