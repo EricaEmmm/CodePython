@@ -34,7 +34,7 @@ def bubbleSort2(List):
             if List[j] < List[j-1]:
                 List[j], List[j-1] = List[j-1], List[j]
                 exchange_flag = True
-        if exchange_flag == False:  # 本趟排序未发生交换，提前终止算法
+        if exchange_flag == False:      # 本趟排序未发生交换，提前终止算法
             return List
     return List
 
@@ -178,7 +178,7 @@ def bucketSort(List):
 
 
 if __name__ == '__main__':
-    List = random.sample(range(10000),2000)# [i for i in range(5000)] #[49, 38, 65, 97, 76, 13, 27, 49]#
+    List = [49, 38, 65, 97, 76, 13, 27, 49]#random.sample(range(10000),2000)# [i for i in range(5000)] #
     #
     # # 冒泡排序
     # # start = time.time()
@@ -196,13 +196,13 @@ if __name__ == '__main__':
     print(quickSort(List))
     print(f'快速排序 set time:{time.time() - start}')
 
-    # 归并排序
-    start = time.time()
-    print(mergeSort(List))
-    print(f'归并排序 set time:{time.time() - start}')
-
-    # 桶排序
-    start = time.time()
-    print(bucketSort(List))
-    print(f'桶排序 set time:{time.time() - start}')
+    # # 归并排序
+    # start = time.time()
+    # print(mergeSort(List))
+    # print(f'归并排序 set time:{time.time() - start}')
+    #
+    # # 桶排序
+    # start = time.time()
+    # print(bucketSort(List))
+    # print(f'桶排序 set time:{time.time() - start}')
 

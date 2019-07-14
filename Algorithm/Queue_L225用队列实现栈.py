@@ -12,6 +12,7 @@
 
 # 双队列实现
 from queue import Queue
+
 class MyStack(object):
 
     def __init__(self):

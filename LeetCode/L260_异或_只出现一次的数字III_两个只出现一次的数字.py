@@ -30,7 +30,7 @@ class Solution(object):
         return res
 
     """
-    法一：异或
+    法二：异或
     时间复杂度：O(n)，空间复杂度：O(1)
     """
     def singleNumber2(self, nums):

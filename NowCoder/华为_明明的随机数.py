@@ -6,7 +6,7 @@ if __name__ == '__main__':
             list_in = []
             for i in range(n):
                 list_in.append(int(input()))
-            for i in sorted(set(r)):
+            for i in sorted(set(list_in)):
                 print(i)
         except:
             break
