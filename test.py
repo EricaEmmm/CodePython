@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # print(s)
     # print(s)
 
-    a="1.2.3"
-    a = map(int, a.split('.'))
+    a="1.32.3"
+    a = list(map(int, a.split('.')))
     print(a)
 
