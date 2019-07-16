@@ -1,3 +1,5 @@
+# 两个线程交替打印
+
 import threading
 import time
 

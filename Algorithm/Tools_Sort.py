@@ -109,10 +109,8 @@ def merge_two(List1, List2):
             j += 1
 
     # 将List1或List2剩余元素加到合并数组
-    for k in range(i, len(List1)):
-        res.append(List1[k])
-    for k in range(j, len(List2)):
-        res.append(List2[k])
+    res.extend(List1[i:])
+    res.extend(List2[j:])
     return res
 
 def mergeSort(List):
@@ -170,8 +168,7 @@ def bucketSort(List):
     res = []
     # 合并数据
     for i in bucket:
-        for j in i:
-            res.append(j)
+        res.extend(i)
 
     return res
 
@@ -196,13 +193,13 @@ if __name__ == '__main__':
     print(quickSort(List))
     print(f'快速排序 set time:{time.time() - start}')
 
-    # # 归并排序
-    # start = time.time()
-    # print(mergeSort(List))
-    # print(f'归并排序 set time:{time.time() - start}')
-    #
-    # # 桶排序
-    # start = time.time()
-    # print(bucketSort(List))
-    # print(f'桶排序 set time:{time.time() - start}')
+    # 归并排序
+    start = time.time()
+    print(mergeSort(List))
+    print(f'归并排序 set time:{time.time() - start}')
+
+    # 桶排序
+    start = time.time()
+    print(bucketSort(List))
+    print(f'桶排序 set time:{time.time() - start}')
 

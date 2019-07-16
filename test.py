@@ -38,6 +38,7 @@ if __name__ == '__main__':
     # print(s)
     # print(s)
 
-    bucket = [[] for i in range(10)]
-    print(bucket)
+    a="1.2.3"
+    a = map(int, a.split('.'))
+    print(a)
 
