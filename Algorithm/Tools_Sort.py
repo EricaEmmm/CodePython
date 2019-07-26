@@ -6,11 +6,34 @@ sys.setrecursionlimit(100000)   # 解决超过最大递归深度问题：maximum
 
 
 # ------------------------------
+# 选择排序
+# ------------------------------
+def selectionSort(List):
+    """
+    选择排序：
+    时间复杂度：O(n^2)
+    空间复杂度：O(1)
+    """
+    n = len(List)
+    for i in range(n):
+        # 选定首位为最小值
+        minIndex = i
+        # 找到最小值下标
+        for j in range(i, n):
+            if List[minIndex] > List[j]:
+                minIndex = j
+        # 交换
+        if minIndex > i:
+            List[minIndex], List[i] = List[i], List[minIndex]
+    return List
+
+
+# ------------------------------
 # 冒泡排序
 # ------------------------------
 def bubbleSort1(List):
     """
-    交换排序之冒泡排序：从头至尾冒泡
+    交换排序之冒泡排序
     时间复杂度：O(n^2)
     空间复杂度：O(1)
     """
@@ -23,7 +46,7 @@ def bubbleSort1(List):
 
 def bubbleSort2(List):
     """
-    交换排序之冒泡排序：从尾至头冒泡
+    交换排序之冒泡排序：有交换标志
     时间复杂度：O(n)-O(n^2)
     空间复杂度：O(1)
     """
@@ -80,7 +103,7 @@ def quickSort(List):
     """
     交换排序之快速排序
     时间复杂度：O(nlogn)
-    空间复杂度：O(n)
+    空间复杂度：O(logn)-O(n)
     """
     # return q_sort(List, 0, len(List)-1)
 
@@ -175,15 +198,22 @@ def bucketSort(List):
 
 
 if __name__ == '__main__':
-    List = [49, 38, 65, 97, 76, 13, 27, 49]#random.sample(range(10000),2000)# [i for i in range(5000)] #
+    List = [i for i in range(500,0,-1)] #random.sample(range(100000),2000)# [49, 38, 65, 97, 76, 13, 27, 49]#
+
+
+    # 选择排序
+    # start = time.time()
+    # print(selectionSort(List))
+    # print(f'选择排序 set time:{time.time()-start}')
+
     #
     # # 冒泡排序
     # # start = time.time()
     # # print(bubbleSort1(List))
     # # print(f'set time:{time.time()-start}')
-    # start = time.time()
-    # print(bubbleSort2(List))
-    # print(f'冒泡排序 set time:{time.time()-start}')
+    start = time.time()
+    print(bubbleSort2(List))
+    print(f'冒泡排序 set time:{time.time()-start}')
 
     # 快速排序
     # Partition(List, 0, 7)     # List会被改变
@@ -193,13 +223,13 @@ if __name__ == '__main__':
     print(quickSort(List))
     print(f'快速排序 set time:{time.time() - start}')
 
-    # 归并排序
-    start = time.time()
-    print(mergeSort(List))
-    print(f'归并排序 set time:{time.time() - start}')
-
-    # 桶排序
-    start = time.time()
-    print(bucketSort(List))
-    print(f'桶排序 set time:{time.time() - start}')
+    # # 归并排序
+    # start = time.time()
+    # print(mergeSort(List))
+    # print(f'归并排序 set time:{time.time() - start}')
+    #
+    # # 桶排序
+    # start = time.time()
+    # print(bucketSort(List))
+    # print(f'桶排序 set time:{time.time() - start}')
 
