@@ -22,7 +22,7 @@ class Solution1:
 class Solution:
     def Fibonacci1(self, n):
         """
-        循环：数组存储
+        循环：数组存储（实质是动态规划）
         时间复杂度：O(n),空间复杂度：O(n)
         """
         array = []

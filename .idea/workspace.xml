@@ -3,19 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bc52dc4f-2fee-4b80-aae4-c98848b32499" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/NowCoder/华为_明明的随机数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfferCode/字符串_02_替换空格.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfferCode/数组_06_旋转数组的最小数字.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfferCode/栈_05_用两个栈实现队列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfferCode/链表_03_从尾到头打印链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfferCode/链表_14_链表倒数第k个节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowCoder/拼多多_两两配对差值最小.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowCoder/拼多多_回合制游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowCoder/拼多多_种树.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CodePython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodePython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Tools_Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Tools_Search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Tools_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Tools_Sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Q074_BS_search2DMatrix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Q106_BT_ConstructBinaryTreeInorderAndPostorderTraversal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowCoder/字节_版本号排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowCoder/字节_版本号排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,14 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm/Tools_Sort.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NowCoder/input_output.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -53,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#1#24#0" expanded="true" />
               </folding>
@@ -63,11 +53,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OfferCode/字符串_02_替换空格.py">
+        <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_选靓号.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="162">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_种树.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_两两配对差值最小.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_回合制游戏.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Q062_DP_uniquePaths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-455" />
           </provider>
         </entry>
       </file>
@@ -86,12 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/Q095_DP_uniqueBinarySearchTreesII.py" />
-        <option value="$PROJECT_DIR$/LeetCode/Q515_BT_FindLargestValueinEachTreeRow.py" />
-        <option value="$PROJECT_DIR$/NowCoder/网易_俄罗斯方块.py" />
-        <option value="$PROJECT_DIR$/NowCoder/vivo_2单项链表第M和第N位置间顺序倒转.py" />
-        <option value="$PROJECT_DIR$/Algorithm/List_L206反转链表.py" />
-        <option value="$PROJECT_DIR$/Algorithm/List_L92反转从位置m到n的链表.py" />
         <option value="$PROJECT_DIR$/NowCoder/vivo_1找出数组A中存在数组B中不存在的数.py" />
         <option value="$PROJECT_DIR$/Algorithm/List_L160两个链表交点.py" />
         <option value="$PROJECT_DIR$/Algorithm/List_L141链表求环.py" />
@@ -127,7 +154,6 @@
         <option value="$PROJECT_DIR$/OfferCode/数组_01_二维数组中的查找.py" />
         <option value="$PROJECT_DIR$/OfferCode/字符串_02_替换空格.py" />
         <option value="$PROJECT_DIR$/OfferCode/链表_03_从尾到头打印链表.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/LeetCode/L106_二叉树_从中序与后序遍历序列构造二叉树.py" />
         <option value="$PROJECT_DIR$/OfferCode/树_04_重建二叉树.py" />
         <option value="$PROJECT_DIR$/OfferCode/栈_05_用两个栈实现队列.py" />
@@ -137,6 +163,13 @@
         <option value="$PROJECT_DIR$/OfferCode/数_17_树的子结构.py" />
         <option value="$PROJECT_DIR$/OfferCode/树_17_树的子结构.py" />
         <option value="$PROJECT_DIR$/Algorithm/Tools_Sort.py" />
+        <option value="$PROJECT_DIR$/NowCoder/拼多多.py" />
+        <option value="$PROJECT_DIR$/NowCoder/拼多多_选靓号.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/NowCoder/拼多多_种树.py" />
+        <option value="$PROJECT_DIR$/NowCoder/拼多多_两两配对差值最小.py" />
+        <option value="$PROJECT_DIR$/NowCoder/拼多多_回合制游戏.py" />
+        <option value="$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py" />
       </list>
     </option>
   </component>
@@ -154,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +202,11 @@
             <path>
               <item name="CodePython" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodePython" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePython" type="462c0819:PsiDirectoryNode" />
               <item name="NowCoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,6 +218,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Tools_Sort">
+  <component name="RunManager" selected="Python.拼多多_回合制游戏">
     <configuration name="Tools_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="数组_06_旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="拼多多_选靓号" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,11 +268,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OfferCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OfferCode/数组_06_旋转数组的最小数字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder/拼多多_选靓号.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="递归_07_斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="拼多多_回合制游戏" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,11 +289,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OfferCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OfferCode/递归_07_斐波那契数列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder/拼多多_回合制游戏.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="链表_14_链表倒数第k个节点" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="拼多多_种树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +310,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OfferCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OfferCode/链表_14_链表倒数第k个节点.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder/拼多多_种树.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="树_17_树的子结构" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="拼多多_两两配对差值最小" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,11 +331,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OfferCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OfferCode/树_17_树的子结构.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder/拼多多_两两配对差值最小.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodePython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,11 +367,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.拼多多_回合制游戏" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.拼多多_选靓号" />
         <item itemvalue="Python.Tools_Sort" />
-        <item itemvalue="Python.树_17_树的子结构" />
-        <item itemvalue="Python.链表_14_链表倒数第k个节点" />
-        <item itemvalue="Python.递归_07_斐波那契数列" />
-        <item itemvalue="Python.数组_06_旋转数组的最小数字" />
       </list>
     </recent_temporary>
   </component>
@@ -342,13 +400,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.20442571" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.20442571" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.20442571" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31019524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29175705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2646421" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21136767" />
@@ -407,31 +465,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NowCoder/多易_非递归后序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NowCoder/vivo_1找出数组A中存在数组B中不存在的数.py" />
-    <entry file="file://$PROJECT_DIR$/LeetCode/L260_只出现一次的数字III_两个只出现一次的数字.py" />
-    <entry file="file://$PROJECT_DIR$/LeetCode/L754_到达终点数字需要的最小移动次数.py" />
-    <entry file="file://$PROJECT_DIR$/NowCoder/字节_1将无序数组中奇数放左边偶数放右边.py" />
-    <entry file="file://$PROJECT_DIR$/NowCoder/华为_明明的随机数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/L121_买卖股票的最佳时机.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NowCoder/字节_线程_多生产者多消费者模型.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -546,13 +579,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NowCoder/字节_二叉树_判断一个数是否为某路径总和.py" />
     <entry file="file://$PROJECT_DIR$/NowCoder/数组_01_二维数组中的查找.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/Q074_BS_search2DMatrix.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/L074_数组_二维数组中的查找.py" />
-    <entry file="file://$PROJECT_DIR$/NowCoder/input_output.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/Tools_Search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -634,23 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OfferCode/字符串_02_替换空格.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1701">
@@ -666,6 +678,76 @@
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NowCoder/拼多多.py" />
+    <entry file="file://$PROJECT_DIR$/NowCoder/字节_二叉树_判断一个数是否为某路径总和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NowCoder/input_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_回合制游戏.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_两两配对差值最小.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_种树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_选靓号.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Q062_DP_uniquePaths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455" />
       </provider>
     </entry>
   </component>
