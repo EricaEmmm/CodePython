@@ -12,8 +12,19 @@
 
 from tool import TreeNode
 
-def OutputTreeRear(self, root, res):
-    # 递归
+
+# 递归
+def OutputTreeRear1(root):
+    res = []
+    helper(root, res)
+    return res
+
+def helper(root, res):
+    if not root:
+        return
+    helper(root.left, res)
+    helper(root.right, res)
+    res.append(root.val)
 
 
 def OutputTreeRear(self, root, res):
@@ -21,6 +32,13 @@ def OutputTreeRear(self, root, res):
         return
 
     sta = []
+    que = []
+    que.append(root)
+    while que:
+        sta.append(que[0].val)
+        if not que[0].right:
+            sta
+
 
 
 
@@ -31,3 +49,4 @@ if __name__ == '__main__':
     root.left.right = TreeNode(3)
     root.right = TreeNode(2)
     root.right.right = TreeNode(9)
+    print(OutputTreeRear1(root))
