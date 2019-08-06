@@ -13,6 +13,10 @@
 from tool import TreeNode
 
 def OutputTreeRear(self, root, res):
+    # 递归
+
+
+def OutputTreeRear(self, root, res):
     if not root:
         return
 

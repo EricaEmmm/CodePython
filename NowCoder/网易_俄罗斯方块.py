@@ -1,3 +1,5 @@
+from collections import Counter
+
 def solve(n, list_in):
     """定义一个1*N的数组，每一列落下方块时，对应数组位置+1，满了就减1"""
     # res = 0
@@ -25,35 +27,11 @@ def solve(n, list_in):
 
 
 if __name__ == '__main__':
-    # """输入"""
-    # # 矩阵维度
-    # n, m = map(int, input().split())    # 通过指定分隔符对字符串进行切片，输出是字符串列表，需转化为int
-    # # print(n,m)
-    # # 数组
-    # list_in = []
-    # list_in = list(map(int, input().split()))
-    # # print(list_in)
-    #
-    # """解决"""
-    # res = solve(n, list_in)
-    #
-    # """输出"""
-    # print(res)
-    #
-    # # t = [[] for i in range(3)]
-    # # t[1] = [1,2,3]
-    # # t[1] = t[1][1:]
-    # # print(t)
-    # list1 = "abcde"#[1, 2, 3, 4, 5, 6]
-    # list1 = list1[3:1:-1]
-    # print(list1)
-    #
-    # matrix = [[1,2,3],[4,5,6],[7,8,9]]
-    # new = [reversed(i) for i in matrix]
-    # print([i for i in zip(*matrix)])
-    #
-    # matrix.sort(key = lambda x : x.start)
-    # print(matrix)
+    n, m = list(map(int, input().split()))
+    array = list(map(int, input().split()))
 
-    n = [1,2,3]
-    print(n[-1])
+    dic = Counter(array)
+    if len(dic) < n:
+        print(0)
+    else:
+        print(min(dic.values()))
