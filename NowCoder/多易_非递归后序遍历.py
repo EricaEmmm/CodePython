@@ -26,8 +26,8 @@ def helper(root, res):
     helper(root.right, res)
     res.append(root.val)
 
-
-def OutputTreeRear(self, root, res):
+# 非递归
+def OutputTreeRear2(root):
     if not root:
         return
 
@@ -36,11 +36,12 @@ def OutputTreeRear(self, root, res):
     que.append(root)
     while que:
         sta.append(que[0].val)
-        if not que[0].right:
-            sta
-
-
-
+        if que[0].right:
+            que.append(que[0].right)
+        if que[0].left:
+            que.append(que[0].left)
+        del que[0]
+    print(sta[::-1])
 
 if __name__ == '__main__':
     root = TreeNode(1)
@@ -49,4 +50,7 @@ if __name__ == '__main__':
     root.left.right = TreeNode(3)
     root.right = TreeNode(2)
     root.right.right = TreeNode(9)
-    print(OutputTreeRear1(root))
+    print(OutputTreeRear2(root))
+
+    # a=[1,2,3]
+    # print(a[::-1])
