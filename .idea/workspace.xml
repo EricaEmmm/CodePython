@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc52dc4f-2fee-4b80-aae4-c98848b32499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TEST/华为3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/趋势科技1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/趋势科技2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/趋势科技3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/华为1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/华为2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,19 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TEST/网易1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="43" />
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -43,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/TEST/华为1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="34" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -56,17 +46,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TEST/华为3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TEST/趋势科技3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TEST/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TEST/1.py">
+        <entry file="file://$PROJECT_DIR$/TEST/趋势科技2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TEST/趋势科技1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -86,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithm/Loop_zigzag数组.py" />
-        <option value="$PROJECT_DIR$/Algorithm/排序.py" />
-        <option value="$PROJECT_DIR$/NowCoder/字节_1将无序数组中奇数放左边偶数放右边.py" />
         <option value="$PROJECT_DIR$/LeetCode/L260_只出现一次的数字III_两个只出现一次的数字.py" />
         <option value="$PROJECT_DIR$/NowCoder/华为_明明的随机数.py" />
         <option value="$PROJECT_DIR$/LeetCode/L121_买卖股票的最佳时机.py" />
@@ -137,6 +151,9 @@
         <option value="$PROJECT_DIR$/TEST/华为1.py" />
         <option value="$PROJECT_DIR$/TEST/华为3.py" />
         <option value="$PROJECT_DIR$/TEST/1.py" />
+        <option value="$PROJECT_DIR$/TEST/趋势科技.py" />
+        <option value="$PROJECT_DIR$/TEST/趋势科技1.py" />
+        <option value="$PROJECT_DIR$/TEST/趋势科技2.py" />
       </list>
     </option>
   </component>
@@ -195,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/Program_Files_Work/Anaconda3/envs/dl/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -210,7 +227,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.华为3">
+  <component name="RunManager" selected="Python.趋势科技2">
+    <configuration name="趋势科技" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodePython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TEST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\DeepLearning\GitHub\CodePython\TEST\趋势科技3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="华为1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,6 +304,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="趋势科技2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodePython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TEST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST/趋势科技2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,55 +396,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="多易_非递归后序遍历" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CodePython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder/多易_非递归后序遍历.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="字节_线程_两个线程交替打印" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CodePython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder/字节_线程_两个线程交替打印.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.趋势科技2" />
+        <item itemvalue="Python.趋势科技" />
         <item itemvalue="Python.华为3" />
-        <item itemvalue="Python.1" />
         <item itemvalue="Python.华为1" />
         <item itemvalue="Python.Tools_Tree" />
-        <item itemvalue="Python.字节_线程_两个线程交替打印" />
       </list>
     </recent_temporary>
   </component>
@@ -415,12 +432,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.20174742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.20174742" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.20442571" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.07637656" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24866785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36412078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,44 +513,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NowCoder/拼多多_两两配对差值最小.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Tools_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/网易2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/网易3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/猿辅导3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NowCoder/字节_线程_两个线程交替打印.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -759,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="3550">
           <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="41" />
         </state>
       </provider>
@@ -767,7 +746,20 @@
     <entry file="file://$PROJECT_DIR$/TEST/网易1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="43" />
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduSynchronousDisk/Projects/DeepLearning/Tutorials/01_Perceptron/train.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/BaiduSynchronousDisk/Projects/DeepLearning/Tutorials/01_Perceptron/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/趋势科技1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -777,21 +769,35 @@
     <entry file="file://$PROJECT_DIR$/TEST/华为1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TEST/华为3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/趋势科技3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TEST/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="2025">
           <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/趋势科技2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
