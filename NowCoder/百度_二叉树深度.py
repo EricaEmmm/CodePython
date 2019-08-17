@@ -28,4 +28,4 @@ if __name__ == '__main__':
     root.left = TreeNode(2)
     root.left.left = TreeNode(3)
     root.right = TreeNode(4)
-    print(depth1(root))
+    print(depth(root))
