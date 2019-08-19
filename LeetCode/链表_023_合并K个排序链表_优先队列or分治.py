@@ -31,6 +31,8 @@ class Solution(object):
     时间复杂度：O(NlogK)
     '''
     def mergeKLists1(self, lists):
+        if len(lists) == 0:
+            return None
         if len(lists) == 1:
             return lists[0]
         mid = len(lists) // 2
@@ -57,22 +59,48 @@ class Solution(object):
         from queue import PriorityQueue
         que = PriorityQueue()
         # 建立头结点优先队列
+        x = 0
         for i in lists:
             if i:
-                que.put(i)
+                que.put((i.val, x, i))    # 比较tuple成员，若第一项相同，则会比较下一项。而ListNode没有比较方法，py3就会抛出异常。添加x，使比较继续。
+                x += 1
         # 构建新有序链表
         head = ptr = ListNode(None)
-        while que:
-            idx = que.get()
+        while not que.empty():
+            val, x, idx = que.get()
             ptr.next = idx
             ptr = ptr.next
             idx = idx.next
             if idx:
-                que.put(idx)
+                que.put((idx.val, x, idx))
+        return head.next
+
+    '''
+    最小堆
+    时间复杂度：O(NlogK)
+    '''
+    def mergeKLists3(self, lists):
+        import heapq
+        small = []
+        # 建立头结点最小堆
+        x = 0
+        for i in lists:
+            if i:
+                heapq.heappush(small, (i.val, x, i))    # 比较tuple成员，若第一项相同，则会比较下一项。而ListNode没有比较方法，py3就会抛出异常。添加x，使比较继续。
+                x += 1
+        # 构建新有序链表
+        head = ptr = ListNode(None)
+        while small:
+            val, x, idx = heapq.heappop(small)
+            ptr.next = idx
+            ptr = ptr.next
+            idx = idx.next
+            if idx:
+                heapq.heappush(small, (idx.val, x, idx))
         return head.next
 
     def mergeKLists(self, lists):
-        return self.mergeKLists2(lists)
+        return self.mergeKLists3(lists)
 
 
 if __name__ == '__main__':
@@ -80,4 +108,4 @@ if __name__ == '__main__':
     l1 = createLinkList([1, 4, 5])
     l2 = createLinkList([1, 3, 4])
     l3 = createLinkList([2, 6])
-    printList(s.mergeKLists([l1, l2, l3]))
+    printList(s.mergeKLists([l1,l2,l3]))
