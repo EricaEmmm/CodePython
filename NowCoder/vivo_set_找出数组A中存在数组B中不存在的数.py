@@ -15,9 +15,9 @@ def solutionSet(A, B):
     res = []
     tmp = set()
     start = time.time()
-    for i in A:
-        tmp.add(i)
     for i in B:
+        tmp.add(i)
+    for i in A:
         if i not in tmp:
             res.append(i)
     end = time.time()

@@ -20,11 +20,11 @@
 dp[i][j]表示前i个物品放入容量为j的背包可获得最大的价值
 时间复杂度：O(NW)，空间复杂度：O(NW)
 '''
-def ZeroOnePack(N, W, v, w):
+def ZeroOnePack1(N, W, v, w):
     dp = [[0 for i in range(W+1)] for j in range(N+1)]
-    for i in range(1, N+1):
-        for j in range(W+1):
-            if j >= w[i]:
+    for i in range(1, N+1): # 枚举物品数量
+        for j in range(1, W+1): # 枚举背包空间
+            if j >= w[i]:           # 如果背包空间能够装下下一件物品进行状态转移
                 dp[i][j] = max(dp[i-1][j], dp[i-1][j-w[i]]+v[i])
             else:
                 dp[i][j] = dp[i - 1][j]
@@ -34,10 +34,10 @@ def ZeroOnePack(N, W, v, w):
 dp[j]表示容量为j的背包可获得最大的价值
 时间复杂度：O(NW)，空间复杂度：O(W)
 '''
-def ZeroOnePack1(N, W, v, w):
+def ZeroOnePack2(N, W, v, w):
     dp = [0 for _ in range(W+1)]
-    for i in range(1, N+1):
-        for j in range(W, w[i]-1, -1):
+    for i in range(1, N+1): # 枚举物品数量
+        for j in range(W, w[i]-1, -1):  # 枚举背包空间
             dp[j] = max(dp[j], dp[j-w[i]]+v[i])
     return dp[W]
 

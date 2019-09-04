@@ -14,20 +14,21 @@
 # 输出：0
 
 if __name__ == '__main__':
-    expression = '!(1&0)|0&1' #input()
+    expression = '!(1&0)&!(!(1&0))' #input()
     while len(expression) > 1:
         expression = expression.replace('!1', '0')
         expression = expression.replace('!0', '1')
+
         expression = expression.replace('1&1', '1')
         expression = expression.replace('1&0', '0')
         expression = expression.replace('0&1', '0')
         expression = expression.replace('0&0', '0')
-        # expression = expression.replace('!1', '0')
-        # expression = expression.replace('!0', '1')
+
         expression = expression.replace('1|1', '1')
         expression = expression.replace('1|0', '1')
         expression = expression.replace('0|1', '1')
         expression = expression.replace('0|0', '0')
+
         expression = expression.replace('(1)', '1')
         expression = expression.replace('(0)', '0')
 

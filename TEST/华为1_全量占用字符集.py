@@ -6,17 +6,14 @@
 # 输出：a:2,b:3,c:2
 # 示例2：
 # 输入：a:3,b:5,c:2@a:3,b:2
-# 输出：,b:3,c:2
+# 输出：b:3,c:2
 
 def helper(str):
     res_str = str[0]
     res_num = int(str[2:])
     return res_str, res_num
 
-if __name__ == '__main__':
-    inp = list(input().split('@')) #list('a:3,b:5,c:2@'.split('@'))#
-    total = list(inp[0].split(','))
-    occupy = list(inp[1].split(','))
+def solve(total, occupy):
     total_dic = {}
     for i in range(len(total)):
         tmp_str, tmp_num = helper(total[i])
@@ -34,3 +31,9 @@ if __name__ == '__main__':
             res = res + tmp_str + ':' + str(total_dic[tmp_str]) + ','
     if len(res) != 0:
         print(res[:-1])
+
+if __name__ == '__main__':
+    inp = list(input().split('@')) #list('a:3,b:5,c:2@'.split('@'))#
+    total = list(inp[0].split(','))
+    occupy = list(inp[1].split(','))
+    solve(total, occupy)

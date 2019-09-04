@@ -24,12 +24,10 @@
 复杂度分析
 暴力：遍历每个滑窗
     时间：O(NK)，空间：O(N-k+1)
-最大堆：维护堆顶
-    时间：O(Nlogk)，空间：O(k)
-单调队列：比较环节用优先队列（最小堆）优化，比较代价O(logK)
-    时间：O(NlogK)，空间：O(K)
-双向队列：将K个链表一直对半分，向上两两合并。每次合并都要遍历几乎全部N个节点，合并logK次
-    时间：O(NlogK)，空间：O(NlogK)
+最大堆：维护大小为k的最大堆，插入一个元素logk
+    时间：O(Nlogk)，空间：O(N)（输出数组O(N−k+1)，最大堆O(k)）
+单调队列：用双向队列实现单调队列，每个元素被处理两次（插入、删除）。
+    时间：O(N)，空间：O(N)（输出数组O(N−k+1)，单调队列O(k)）
 '''
 class monotonicQueue(object):
     # 保证队列中元素单调递减
@@ -45,7 +43,7 @@ class monotonicQueue(object):
     # 返回最大值，即队首
     def max(self):
         if self.data == []:
-            return None
+            return
         else:
             return self.data[0]
 
@@ -56,13 +54,12 @@ class monotonicQueue(object):
 
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
+        if k == 0:
+            return []
         monQue = monotonicQueue()
         for i in range(k):
             monQue.push(nums[i])
-        if monQue.max():
-            res = [monQue.max()]
-        else:
-            res = []
+        res = [monQue.max()]
         for i in range(k, len(nums)):
             monQue.pop(nums[i-k])
             monQue.push(nums[i])
