@@ -19,6 +19,7 @@ class Solution1:
             self.array[n] = self.Fibonacci(n-1) + self.Fibonacci(n-2)
             return self.array[n]
 
+
 class Solution:
     def Fibonacci1(self, n):
         """

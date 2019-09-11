@@ -27,7 +27,7 @@ class ReservoirSample():
         #                  =  k/n
         else:
             rand_int = random.randint(1, self.n)
-            if  rand_int <= self.k:
+            if rand_int <= self.k:
                 self._sample[rand_int-1] = item
             return self._sample
 

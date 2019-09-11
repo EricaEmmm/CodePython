@@ -2,44 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc52dc4f-2fee-4b80-aae4-c98848b32499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/BFS_529_扫雷游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/动态规划_300_最长上升子序列_贪心+二分.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/动态规划_354_俄罗斯套娃信封问题_贪心+二分.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/树_104_二叉树的最大深度_递归orBFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/京东1_消消乐.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/京东2_拼接迷宫.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/小红书1_笔记草稿_55改OK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/小红书2_迷宫游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/小红书3_倒卖战利品_45改OK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/拼多多_1优先偶数的有序TopN_100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/拼多多_3骰子期望_没做改10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/拼多多_4二维表第K大数_30.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/携程1_车辆时刻表分组_100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/携程2_AUC计算_100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/携程3_旅游路线设计.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/滴滴1_算式转移_改OK暴力.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/趋势科技1_超长非负数求和_没做改OK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/顺丰1_学术交流_没做.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/顺丰2_求最长的特殊子序列_改OK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/KMP字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/后缀表达式求值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/图论/并查集.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/图论/最小生成树_Kruskal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/图论/最小生成树_Prim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/图论/最短路径_BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/图论/最短路径_Bellman-Ford.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/图论/最短路径_Dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/排序/交换排序_冒泡排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/排序/交换排序_快速排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/排序/归并排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/排序/插入排序_直接插入排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/排序/桶排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/排序/选择排序_直接选择排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/背包问题/4_混合背包问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/背包问题/5_二维费用的背包问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/背包问题/6_ 分组背包问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/华为3_与或非_改OK后缀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/小红书2_迷宫游戏_没做改OK.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/背包问题/01背包问题.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/背包问题/01背包问题_416_分割等和子集.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/背包问题/完全背包问题.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/背包问题/完全背包问题_322_零钱兑换.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/队列_239_滑动窗口最大值_单调队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/队列_239_滑动窗口最大值_单调队列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowCoder/vivo_set_找出数组A中存在数组B中不存在的数.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowCoder/vivo_set_找出数组A中存在数组B中不存在的数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowCoder/分糖.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowCoder/百度_蓄水池采样.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfferCode/链表_25_复杂链表的复制.py" beforeDir="false" afterPath="$PROJECT_DIR$/OfferCode/链表_25_复杂链表的复制.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/华为1_全量占用字符集.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为1_全量占用字符集.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/华为2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/华为3_与或非_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为3_与或非_replace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/拼多多3.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/拼多多3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/趋势科技1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/趋势科技2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/趋势科技2_凑零钱找组合_改OK暴力.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Tools_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Tools_Sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/背包问题/01背包问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/背包问题/1_01背包问题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/背包问题/多重背包问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/背包问题/3_多重背包问题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/背包问题/完全背包问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/背包问题/2_完全背包问题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/蓄水池采样.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/蓄水池采样.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py" beforeDir="false" afterPath="$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/互娱1_二进制计数.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/互娱1_二进制计数_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/互娱2_游泳池.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/互娱2_游泳池_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/京东2_拼接迷宫.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/京东2_拼接迷宫_没做.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/华为1_全量占用字符集.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为1_全量占用字符集_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/华为2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为2_前缀树查找.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/华为3_与或非_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为3_与或非_改OKreplace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/华为_1卖设备.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为_1卖设备_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/华为_2旋转包含.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/华为_2旋转包含_80.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/小红书2_迷宫游戏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/拼多多_1优先偶数的有序TopN_100.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/拼多多_1优先偶数的有序TopN_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/携程1_车辆时刻表分组_100.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/携程1_车辆时刻表分组_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/携程2_AUC计算_100.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/携程2_AUC计算_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,24 +57,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TEST/携程3_旅游路线设计.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="250">
+              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TEST/1.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OfferCode/回溯_27_字符串的排列.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <element signature="e#32#51#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-979" />
           </provider>
         </entry>
       </file>
@@ -95,46 +93,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OfferCode/链表_16_合并两个排序的链表.py" />
-        <option value="$PROJECT_DIR$/LeetCode/背包问题/01背包问题.py" />
-        <option value="$PROJECT_DIR$/LeetCode/背包问题/01背包问题_416_分割等和子集.py" />
-        <option value="$PROJECT_DIR$/LeetCode/背包问题/完全背包问题.py" />
-        <option value="$PROJECT_DIR$/LeetCode/背包问题/完全背包问题_322_零钱兑换.py" />
-        <option value="$PROJECT_DIR$/LeetCode/链表_21_合并两个有序链表.py" />
-        <option value="$PROJECT_DIR$/LeetCode/链表_23_合并K个排序链表.py" />
-        <option value="$PROJECT_DIR$/LeetCode/栈_71_简化路径.py" />
-        <option value="$PROJECT_DIR$/LeetCode/堆_632_最小区间_最小堆.py" />
-        <option value="$PROJECT_DIR$/LeetCode/队列_239_滑动窗口最大值.py" />
-        <option value="$PROJECT_DIR$/OfferCode/链表_25_复杂链表的复制.py" />
-        <option value="$PROJECT_DIR$/TEST/京东1.py" />
-        <option value="$PROJECT_DIR$/TEST/京东2_拼接迷宫.py" />
-        <option value="$PROJECT_DIR$/TEST/京东1_消消乐.py" />
-        <option value="$PROJECT_DIR$/NowCoder/vivo_set_找出数组A中存在数组B中不存在的数.py" />
-        <option value="$PROJECT_DIR$/tool.py" />
-        <option value="$PROJECT_DIR$/LeetCode/背包问题/多重背包问题.py" />
-        <option value="$PROJECT_DIR$/TEST/滴滴1_算式转移.py" />
-        <option value="$PROJECT_DIR$/Algorithm/背包问题/完全背包问题.py" />
-        <option value="$PROJECT_DIR$/Algorithm/背包问题/01背包问题.py" />
-        <option value="$PROJECT_DIR$/Algorithm/背包问题/多重背包问题.py" />
-        <option value="$PROJECT_DIR$/LeetCode/队列_239_滑动窗口最大值_单调队列.py" />
-        <option value="$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py" />
-        <option value="$PROJECT_DIR$/TEST/顺丰1_学术交流.py" />
-        <option value="$PROJECT_DIR$/TEST/拼多多_1优先偶数的有序TopN.py" />
-        <option value="$PROJECT_DIR$/TEST/拼多多_4二维表第K大数.py" />
-        <option value="$PROJECT_DIR$/TEST/华为1_全量占用字符集.py" />
-        <option value="$PROJECT_DIR$/TEST/华为3_与或非_replace.py" />
-        <option value="$PROJECT_DIR$/TEST/华为2.py" />
-        <option value="$PROJECT_DIR$/TEST/小红书1.py" />
-        <option value="$PROJECT_DIR$/TEST/3.py" />
-        <option value="$PROJECT_DIR$/TEST/小红书1_笔记草稿.py" />
-        <option value="$PROJECT_DIR$/TEST/小红书3_倒卖战利品.py" />
         <option value="$PROJECT_DIR$/LeetCode/动态规划_300_最长上升子序列.py" />
         <option value="$PROJECT_DIR$/TEST/小红书1_笔记草稿55.py" />
         <option value="$PROJECT_DIR$/TEST/顺丰2_求最长的特殊子序列.py" />
         <option value="$PROJECT_DIR$/TEST/趋势科技1.py" />
         <option value="$PROJECT_DIR$/TEST/拼多多_3骰子期望.py" />
         <option value="$PROJECT_DIR$/TEST/拼多多3.py" />
-        <option value="$PROJECT_DIR$/TEST/小红书2_迷宫游戏.py" />
         <option value="$PROJECT_DIR$/LeetCode/动态规划_300_最长上升子序列_贪心+二分.py" />
         <option value="$PROJECT_DIR$/LeetCode/动态规划_354_俄罗斯套娃信封问题_贪心+二分.py" />
         <option value="$PROJECT_DIR$/LeetCode/树_104_二叉树的最大深度_递归orBFS.py" />
@@ -146,10 +110,44 @@
         <option value="$PROJECT_DIR$/TEST/1.py" />
         <option value="$PROJECT_DIR$/LeetCode/BFS_529_扫雷游戏.py" />
         <option value="$PROJECT_DIR$/TEST/携程1_车辆时刻表分组_100.py" />
+        <option value="$PROJECT_DIR$/TEST/小红书2_迷宫游戏.py" />
+        <option value="$PROJECT_DIR$/Algorithm/背包问题/混合背包问题.py" />
+        <option value="$PROJECT_DIR$/Algorithm/背包问题/二维费用的背包问题.py" />
+        <option value="$PROJECT_DIR$/Algorithm/背包问题/5_二维费用的背包问题.py" />
+        <option value="$PROJECT_DIR$/Algorithm/背包问题/5_ 分组背包问题.py" />
+        <option value="$PROJECT_DIR$/Algorithm/背包问题/6_ 分组背包问题.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/最小生成树 _Prim.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/并查集.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/最短路径_BFS.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/最小生成树_Kruskal.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/最小生成树_Prim.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/最短路径_Dijkstra.py" />
+        <option value="$PROJECT_DIR$/Algorithm/图论/最短路径_Bellman-Ford.py" />
+        <option value="$PROJECT_DIR$/Algorithm/KMP字符串.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/插入排序_直接插入排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/选择排序_直接选择排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/交换排序_冒泡排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/选择排序_归并排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/交换排序_归并排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/基数排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Tools_Sort.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/桶排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/交换排序_快速排序.py" />
+        <option value="$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py" />
+        <option value="$PROJECT_DIR$/TEST/华为2.py" />
+        <option value="$PROJECT_DIR$/TEST/华为2_前缀树查找.py" />
+        <option value="$PROJECT_DIR$/Algorithm/逆波兰表达式求值.py" />
+        <option value="$PROJECT_DIR$/Algorithm/后缀表达式求值.py" />
+        <option value="$PROJECT_DIR$/TEST/华为3_与或非_后缀.py" />
+        <option value="$PROJECT_DIR$/Algorithm/排序/归并排序.py" />
+        <option value="$PROJECT_DIR$/Algorithm/蓄水池采样.py" />
+        <option value="$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="84" />
     <option name="width" value="1938" />
     <option name="height" value="1059" />
@@ -162,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,17 +170,13 @@
             <path>
               <item name="CodePython" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodePython" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodePython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodePython" type="462c0819:PsiDirectoryNode" />
-              <item name="TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="OfferCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,8 +197,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BFS_529_扫雷游戏">
-    <configuration name="携程1_车辆时刻表分组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.回溯_65_矩阵中的路径">
+    <configuration name="归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodePython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/排序" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/排序/归并排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="华为2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,7 +231,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\DeepLearning\GitHub\CodePython\TEST\携程1_车辆时刻表分组_100.py" />
+      <option name="SCRIPT_NAME" value="F:\DeepLearning\GitHub\CodePython\TEST\华为2_前缀树查找.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="携程2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="华为3_与或非_后缀" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,7 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\DeepLearning\GitHub\CodePython\TEST\携程2_AUC计算_100.py" />
+      <option name="SCRIPT_NAME" value="F:\DeepLearning\GitHub\CodePython\TEST\华为3_与或非_改OK后缀.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BFS_529_扫雷游戏" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="逆波兰表达式求值" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/BFS_529_扫雷游戏.py" />
+      <option name="SCRIPT_NAME" value="F:\DeepLearning\GitHub\CodePython\Algorithm\后缀表达式求值.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="树_104_二叉树的最大深度_递归orBFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="回溯_65_矩阵中的路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,11 +290,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OfferCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/树_104_二叉树的最大深度_递归orBFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +303,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="动态规划_354_俄罗斯套娃信封问题_贪心+二分" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,11 +311,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/动态规划_354_俄罗斯套娃信封问题_贪心+二分.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BFS_529_扫雷游戏" />
-        <item itemvalue="Python.携程1_车辆时刻表分组" />
-        <item itemvalue="Python.携程2" />
-        <item itemvalue="Python.树_104_二叉树的最大深度_递归orBFS" />
-        <item itemvalue="Python.动态规划_354_俄罗斯套娃信封问题_贪心+二分" />
+        <item itemvalue="Python.回溯_65_矩阵中的路径" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.归并排序" />
+        <item itemvalue="Python.华为3_与或非_后缀" />
+        <item itemvalue="Python.华为2" />
       </list>
     </recent_temporary>
   </component>
@@ -343,16 +357,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7956731" visible="true" weight="0.19142176" />
-      <window_info id="Structure" order="1" sideWeight="0.20432693" side_tool="true" visible="true" weight="0.19142176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78507996" visible="true" weight="0.24543288" />
+      <window_info id="Structure" order="1" sideWeight="0.21492007" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26110125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47069272" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23623446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41385436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21136767" />
@@ -364,6 +378,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78507996" visible="true" weight="0.18268467" />
+      <window_info id="Structure" order="1" sideWeight="0.21492007" side_tool="true" visible="true" weight="0.18268467" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32962668" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.330373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41385436" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.21136767" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.23268206" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -459,325 +492,310 @@
           <line>47</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/图论/最短路径_BFS.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Tools_Sort.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/链表_023_合并K个排序链表_优先队列or分治.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfferCode/数组_01_二维数组中的查找.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfferCode/数学_11_二进制中1的个数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfferCode/数组_13_调整数组顺序使奇数位于偶数前面.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/栈_071_简化路径.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2734">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/队列_239_滑动窗口最大值_单调队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/Tools_Sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="215" column="4" selection-start-line="215" selection-start-column="4" selection-end-line="215" selection-end-column="47" />
+        <state relative-caret-position="284">
+          <caret line="191" column="6" lean-forward="true" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py">
+    <entry file="file://$PROJECT_DIR$/NowCoder/多易_非递归后序遍历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfferCode/回溯_27_字符串的排列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/华为1_全量占用字符集.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-        </state>
+        <state relative-caret-position="-298" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/Tools_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="85" column="14" lean-forward="true" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        <state relative-caret-position="-2925" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/循环_08_跳台阶.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/循环_07_斐波那契数列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/华为3_与或非_replace.py">
+    <entry file="file://$PROJECT_DIR$/TEST/华为1_全量占用字符集_AC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="350">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/3.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/背包问题/多重背包问题.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/排序/桶排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="-591">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/华为2_前缀树查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="44" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/华为3_与或非_改OKreplace.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TEST/华为3_与或非.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="153" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/华为3_与或非_改OK后缀.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/排序/归并排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/排序/交换排序_快速排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/数组_06_旋转数组的最小数字.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/链表_15_反转链表.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/动态规划_416_分割等和子集_01背包.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
+        <state relative-caret-position="-600" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/背包问题/01背包问题.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/背包问题/1_01背包问题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="635">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/小红书1_笔记草稿_55改OK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/顺丰2_求最长的特殊子序列_改OK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/趋势科技3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/趋势科技2_凑零钱找组合_改OK暴力.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/趋势科技1_超长非负数求和_没做改OK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/网易3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/网易2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/网易1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/猿辅导3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/猿辅导1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/滴滴1_算式转移_改OK暴力.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1699">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多_4二维表第K大数_30.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多_1优先偶数的有序TopN_100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多_3骰子期望_没做改10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/顺丰1_学术交流_没做.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="1" column="4" selection-start-line="1" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/拼多多1.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/动态规划_300_最长上升子序列_贪心+二分.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="100">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/动态规划_354_俄罗斯套娃信封问题_贪心+二分.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/背包问题/2_完全背包问题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/动态规划_322_零钱兑换_完全背包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/背包问题/5_二维费用的背包问题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/小红书3_倒卖战利品_45改OK.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/KMP字符串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="34">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/树_104_二叉树的最大深度_递归orBFS.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/List_L086分隔链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
+        <state relative-caret-position="-450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/华为2.py">
+    <entry file="file://$PROJECT_DIR$/OfferCode/链表_14_链表倒数第k个节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
+        <state relative-caret-position="-750" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/小红书2_迷宫游戏.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/List_L092反转从位置m到n的链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="-1640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/List_L141链表求环.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/List_L160两个链表交点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/蓄水池采样.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/BFS_529_扫雷游戏.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="-350">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/堆_632_最小区间_最小堆.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/后缀表达式求值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/List_L206反转链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/L113_二叉树_路径总和等于给定目标的路径.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/L260_异或_只出现一次的数字III_两个只出现一次的数字.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/携程1_车辆时刻表分组_100.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/Q062_DP_uniquePaths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="-1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Q739_Stack_DailyTemperatures.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Q096_DP_uniqueBinarySearchTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Q120_DP_minTrianglePath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/堆_632_最小区间_最小堆.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/树_104_二叉树的最大深度_递归orBFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/链表_023_合并K个排序链表_优先队列or分治.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/链表_021_合并两个有序链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/队列_239_滑动窗口最大值_单调队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/数组_13_调整数组顺序使奇数位于偶数前面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/栈_071_简化路径.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/树_17_树的子结构_鲁棒性调很久.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/携程2_AUC计算_100.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/L121_买卖股票的最佳时机.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/栈_496_下一个更大元素1_单调栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/1.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#32#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/携程3_旅游路线设计.py">
+    <entry file="file://$PROJECT_DIR$/OfferCode/回溯_65_矩阵中的路径.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="250">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfferCode/回溯_27_字符串的排列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-979" />
       </provider>
     </entry>
   </component>

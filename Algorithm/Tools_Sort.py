@@ -198,7 +198,7 @@ def bucketSort(List):
 
 
 if __name__ == '__main__':
-    List = [i for i in range(500,0,-1)] #random.sample(range(100000),2000)# [49, 38, 65, 97, 76, 13, 27, 49]#
+    List = random.sample(range(2000), 20)#[i for i in range(500,0,-1)] #random.sample(range(100000),2000)# [49, 38, 65, 97, 76, 13, 27, 49]#
 
 
     # 选择排序
@@ -211,17 +211,17 @@ if __name__ == '__main__':
     # # start = time.time()
     # # print(bubbleSort1(List))
     # # print(f'set time:{time.time()-start}')
-    start = time.time()
-    print(bubbleSort2(List))
-    print(f'冒泡排序 set time:{time.time()-start}')
+    # start = time.time()
+    # print(bubbleSort2(List))
+    # print(f'冒泡排序 set time:{time.time()-start}')
 
     # 快速排序
     # Partition(List, 0, 7)     # List会被改变
     # Partition(List[:], 0, 7)
     # print(List)
-    start = time.time()
-    print(quickSort(List))
-    print(f'快速排序 set time:{time.time() - start}')
+    # start = time.time()
+    # print(quickSort(List))
+    # print(f'快速排序 set time:{time.time() - start}')
 
     # # 归并排序
     # start = time.time()
@@ -229,7 +229,7 @@ if __name__ == '__main__':
     # print(f'归并排序 set time:{time.time() - start}')
     #
     # # 桶排序
-    # start = time.time()
-    # print(bucketSort(List))
-    # print(f'桶排序 set time:{time.time() - start}')
+    start = time.time()
+    print(bucketSort(List))
+    print(f'桶排序 set time:{time.time() - start}')
 

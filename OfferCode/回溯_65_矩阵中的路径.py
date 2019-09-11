@@ -55,8 +55,8 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    matrix = 'ABCEHJIGSFCSLOPQADEEMNOEADIDEJFMVCEIFGGS'#['a', 'b', 'c', 'e', 's', 'f', 'c', 's', 'a', 'd', 'e', 'e']
-    print(s.hasPath(matrix, 5, 8, 'SGGFIECVAASABCEHJIGQEMS'))
+    matrix = ['a', 'b', 'c', 'e', 's', 'f', 'c', 's', 'a', 'd', 'e', 'e']#'ABCEHJIGSFCSLOPQADEEMNOEADIDEJFMVCEIFGGS'#
+    print(s.hasPath(matrix, 3, 4, 'bcced'))
     # a=True
     # a|=False
     # print(a)

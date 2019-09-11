@@ -1,15 +1,14 @@
+import math
+def c(m, n):
+    return math.factorial(n) / (math.factorial(m)*math.factorial(n-m))
 
-from queue import Queue
-from tool import SmallHeap, BigHeap, heapq
-from collections import Counter
 
 if __name__ == '__main__':
-    s = "1223"
-    tel = [int(i) for i in s]
-    count_dct = Counter(tel)
-    idx = list(range(len(tel)))
-    print(count_dct)
+    res = 0
+    for i in range(199):
+        res += c(i, 250+2*i)
+    res2 = 0
+    for i in range(249):
+        res2 += c(i, 200+2*i)
 
-    t = [1,2,3,4]
-    t.pop()
-    print(t)
+    print(res/(res+res2))

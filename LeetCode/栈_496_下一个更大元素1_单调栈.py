@@ -36,7 +36,7 @@ class Solution(object):
     def nextGreaterElement2(self, nums1, nums2):
         monotonicStack = [-1]
         for i in range(len(nums2)-1, -1, -1):
-
+            2
 
 
     def nextGreaterElement(self, nums1, nums2):
