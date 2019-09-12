@@ -1,6 +1,7 @@
 '''
 矩形覆盖
-我们可以用2*1的小矩形横着或者竖着去覆盖更大的矩形。请问用n个2*1的小矩形无重叠地覆盖一个2*n的大矩形，总共有多少种方法？
+我们可以用2*1的小矩形横着或者竖着去覆盖更大的矩形。
+请问用n个2*1的小矩形无重叠地覆盖一个2*n的大矩形，总共有多少种方法？
 '''
 
 
@@ -14,4 +15,15 @@ f(n)=f(n-1)+f(n-2)
 '''
 class Solution:
     def rectCover(self, number):
+        if number < 3:
+            return number
+        pre = 1
+        cur = 2
+        for i in range(2, number):
+            cur = cur + pre
+            pre = cur - pre
+        return cur
 
+if __name__ == '__main__':
+    s = Solution()
+    print(s.rectCover(3))
