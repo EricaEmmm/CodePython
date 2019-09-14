@@ -10,8 +10,24 @@ from tool import TreeNode
 class Solution:
     # 返回二维列表，内部每个列表表示找到的路径
     def FindPath(self, root, expectNumber):
+        if not root:
+            return []
+        res = []
+        self.helper(root, res, [], expectNumber)
+        res.sort(key=lambda x:len(x), reverse=True)
+        return res
 
-
+    def helper(self, root, res, path, expectNumber):
+        path.append(root.val)
+        expectNumber = expectNumber - root.val
+        if expectNumber == 0:
+            if not root.left and not root.right:
+                res.append(path)
+            return
+        if root.left:
+            self.helper(root.left, res, path[:], expectNumber)
+        if root.right:
+            self.helper(root.right, res, path[:], expectNumber)
 
 if __name__ == '__main__':
     s = Solution()
@@ -21,4 +37,5 @@ if __name__ == '__main__':
     root.left.left = TreeNode(4)
     root.right.left = TreeNode(6)
     root.right.right = TreeNode(7)
+    root.left.left.right = TreeNode(3)
     print(s.FindPath(root, 10))
