@@ -14,9 +14,15 @@
 '''
 
 if __name__ == '__main__':
-    s = 'RRRRRLRLRL' #input() #
-    array = list(s.split('RL'))
+    s = 'RLL' #input() #
+    array = list(s.split('L'))
+    array = array[:-1]
     res = ''
-    for i in range(len(array)-1):
-        res = res + '0'*len(array[i]) + str(len(array[i+1])+1) + str(len(array[i])+1) + '0'*len(array[i+1])
+    for i in range(len(array)):
+        if len(array[i]) == 1:
+            res += '11'
+        elif len(array[i])%2 == 0:
+            res = res + '0'*(len(array[i])-1) + str(len(array[i])//2) + str(len(array[i])//2+1)
+        else:
+            res = res + '0'*(len(array[i])-1) + str((len(array[i])+1)//2)*2
     print(' '.join(res))

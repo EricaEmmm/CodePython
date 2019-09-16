@@ -11,15 +11,14 @@
 class Solution:
     def GetLeastNumbers_Solution(self, tinput, k):
         import heapq
-        smallheap = []
+        bigheap = []
         for i in range(k):
-            heapq.heappush(smallheap, tinput[i])
+            heapq.heappush(bigheap, -tinput[i])
         for j in range(k, len(tinput)):
-            heapq.heappushpop(smallheap, heapq[j])
-        return smallheap
+            heapq.heappushpop(bigheap, -tinput[j])
+        return sorted(map(lambda x:-x, bigheap))
 
-if __name__ == '__mian__':
-    print(1)
+if __name__ == '__main__':
     s = Solution()
-    tinput = [4,5,1,6,2,7,3,8]
+    tinput = [4,5,1,6,2,7,3,8,9]
     print(s.GetLeastNumbers_Solution(tinput, 4))
