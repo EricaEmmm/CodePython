@@ -10,6 +10,8 @@
 '''
 class Solution:
     def GetLeastNumbers_Solution(self, tinput, k):
+        if len(tinput) < k:
+            return []
         import heapq
         bigheap = []
         for i in range(k):
